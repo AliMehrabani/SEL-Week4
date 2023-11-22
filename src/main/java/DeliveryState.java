@@ -1,3 +1,3 @@
 public interface DeliveryState {
-    public void showState();
+    public String getState();
 }

@@ -1,6 +1,6 @@
 public class InTransit implements DeliveryState {
     @Override
-    public void showState() {
-
+    public String getState() {
+        return "";
     }
 }

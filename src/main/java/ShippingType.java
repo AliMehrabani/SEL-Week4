@@ -1,3 +1,3 @@
 public interface ShippingType {
-    public void showType();
+    public String getType();
 }

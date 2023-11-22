@@ -1,6 +1,6 @@
 public class Express implements ShippingType{
     @Override
-    public void showType() {
-
+    public String getType() {
+        return "";
     }
 }

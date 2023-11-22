@@ -1,6 +1,6 @@
 public class Delivered implements DeliveryState {
     @Override
-    public void showState() {
-
+    public String getState() {
+        return "";
     }
 }
