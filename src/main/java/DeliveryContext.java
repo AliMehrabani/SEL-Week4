@@ -3,22 +3,23 @@ public class DeliveryContext {
     private ShippingType currentType;
 
     public DeliveryContext() {
-
+        currentState = new InTransit();
+        currentType = new Standard();
     }
 
     public void setCurrentState(DeliveryState currentState) {
-
+        this.currentState = currentState;
     }
 
     public void setCurrentType(ShippingType currentType) {
-
+        this.currentType = currentType;
     }
 
     public String getDeliveryState() {
-        return "";
+        return "Delivery state: " + this.currentState.getState();
     }
 
     public String getShippingType() {
-        return "";
+        return "Shipping type: " + this.currentType.getType();
     }
 }
