@@ -33,6 +33,6 @@ public class Main {
         }
         System.out.println("Package Delivered.");
         double cost = coef * packageWeight;
-        System.out.println("Shipping cost: " + String.valueOf(cost));
+        System.out.println("Shipping cost: " + cost);
     }
 }
