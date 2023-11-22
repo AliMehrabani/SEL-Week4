@@ -1,8 +1,8 @@
-public class DeliveryStateContext {
+public class DeliveryContext {
     private DeliveryState currentState;
     private ShippingType currentType;
 
-    public DeliveryStateContext() {
+    public DeliveryContext() {
 
     }
 
